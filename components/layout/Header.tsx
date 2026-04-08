@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -17,14 +16,7 @@ export function Header() {
       <div className={styles.navBar}>
         <div className={styles.container}>
           <Link className={styles.logo} href="/">
-            <Image
-              src="/bbc-factoring-blue.png"
-              alt="BBC Factoring — Business Banking and Consulting"
-              width={200}
-              height={200}
-              className={styles.logoImage}
-              priority
-            />
+            BBC FACTORING
           </Link>
 
           <button
@@ -47,8 +39,21 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <ButtonLink href={siteConfig.ctaHref} label={siteConfig.ctaLabel} external />
           </nav>
+
+          <div className={styles.actions}>
+            <ButtonLink href={siteConfig.account.href} label={siteConfig.account.label} external variant="outline" />
+            <label className={styles.language}>
+              <span className={styles.languageLabel}>Idioma</span>
+              <select aria-label="Seleccionar idioma" defaultValue={siteConfig.languages[0]}>
+                {siteConfig.languages.map((language) => (
+                  <option key={language} value={language}>
+                    {language}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
         </div>
       </div>
     </header>

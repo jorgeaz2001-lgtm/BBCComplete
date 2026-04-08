@@ -1,23 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-
-@font-face {
-  font-family: "LT Remark";
-  src: url("https://framerusercontent.com/assets/GHgDNReRtD7hzyHdOj1nqYKY.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap");
 
 :root {
-  --color-primary: #0a2f78;
-  --color-accent: #3f65be;
-  --color-accent-dark: #2f539f;
-  --color-text: #102645;
-  --color-muted: #4f6078;
-  --color-border: #dbe2ef;
+  --color-primary: #0f337f;
+  --color-accent: #2263d4;
+  --color-accent-dark: #194da8;
+  --color-brand-soft: #7eb3ef;
+  --color-text: #1b365d;
+  --color-muted: #5a7194;
+  --color-border: #d5e2f1;
+  --color-section-soft: #f2f7fd;
+  --color-section-strong: #e6effa;
+  --color-surface: #f9fbfe;
+  --color-navy-900: #0a1d3f;
+  --color-navy-800: #102955;
   --color-white: #ffffff;
-  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
-  --font-display: "LT Remark", "PT Serif", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", Arial, sans-serif;
+  --font-display: "Sora", "Segoe UI", Arial, sans-serif;
 }
 
 *,
@@ -33,6 +31,7 @@ body {
   font-family: var(--font-sans);
   color: var(--color-text);
   background: var(--color-white);
+  line-height: 1.45;
 }
 
 h1,
@@ -42,7 +41,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 main {

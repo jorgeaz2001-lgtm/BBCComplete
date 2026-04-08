@@ -12,7 +12,7 @@ export const siteConfig = {
   companyName: "BBC Factoring",
   ctaLabel: "Chatea con un Asesor",
   ctaHref: WHATSAPP_ADVISOR_URL,
-  languages: ["ESPAÑOL"],
+  languages: ["ES"],
   nav: [
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/services" },

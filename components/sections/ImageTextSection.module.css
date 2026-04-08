@@ -1,5 +1,5 @@
 .section {
-  padding: 48px 0;
+  padding: 54px 0;
 }
 
 .container {
@@ -24,8 +24,9 @@
 }
 
 .media {
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
+  border: 1px solid var(--color-border);
 }
 
 .media img {
@@ -37,23 +38,24 @@
 .copy h2 {
   margin: 0;
   color: var(--color-primary);
-  font-size: clamp(30px, 4vw, 44px);
+  font-size: clamp(32px, 3.2vw, 44px);
   line-height: 1.13;
+  text-transform: capitalize;
 }
 
 .copy p {
-  margin: 18px 0 28px;
-  color: var(--color-muted);
-  font-size: 18px;
-  line-height: 1.55;
+  margin: 14px 0 24px;
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .copy ol {
-  margin: -8px 0 28px 22px;
+  margin: -2px 0 26px 22px;
   padding: 0;
-  color: var(--color-muted);
-  font-size: 18px;
-  line-height: 1.55;
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .copy li {

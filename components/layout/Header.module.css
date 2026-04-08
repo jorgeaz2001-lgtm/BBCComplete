@@ -3,7 +3,7 @@
   top: 0;
   z-index: 40;
   background: var(--color-white);
-  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 1px 0 var(--color-border);
 }
 
 .container {
@@ -15,26 +15,38 @@
 
 .navBar {
   position: relative;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-primary) 28%, var(--color-white));
+}
+
+.navBar::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background: var(--color-primary);
 }
 
 .navBar .container {
-  min-height: 78px;
-  justify-content: space-between;
-  gap: 16px;
+  min-height: 82px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 24px;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  line-height: 0;
   text-decoration: none;
-}
-
-.logoImage {
-  height: clamp(40px, 10vw, 52px);
-  width: auto;
-  max-width: min(200px, 52vw);
-  object-fit: contain;
+  font-family: var(--font-display);
+  font-size: 31px;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .menuToggle {
@@ -49,7 +61,8 @@
 .nav {
   display: flex;
   align-items: center;
-  gap: 26px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .navLink,
@@ -57,17 +70,59 @@
   text-decoration: none;
   color: var(--color-text);
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .navActive {
   color: var(--color-primary);
 }
 
+.actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+}
+
+.languageLabel {
+  font-size: 11px;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.language select {
+  border: 0;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+}
+
 @media (max-width: 940px) {
+  .navBar .container {
+    grid-template-columns: 1fr auto;
+  }
+
   .menuToggle {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
   }
 
   .nav {
@@ -81,9 +136,16 @@
     align-items: flex-start;
     background: var(--color-white);
     display: none;
+    justify-content: flex-start;
+    gap: 16px;
   }
 
   .navOpen {
     display: flex;
+  }
+
+  .actions {
+    grid-column: 1 / -1;
+    margin: -4px 0 12px;
   }
 }

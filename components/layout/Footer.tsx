@@ -6,26 +6,19 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.ctaPanel}>
-          <p className={styles.eyebrow}>GET STARTED</p>
-          <h2>Liquidez sin deuda, sin límites y sin complicaciones.</h2>
-          <p className={styles.subtitle}>
-            BBC Factoring te ayuda a convertir facturas en liquidez inmediata para operar, crecer y
-            escalar sin fricciones.
-          </p>
-          <div className={styles.actions}>
-            <Link href={siteConfig.ctaHref} className={styles.primaryAction}>
-              Get in touch
-            </Link>
-            <Link href="/about" className={styles.secondaryAction}>
-              About us
-            </Link>
+        <div className={styles.top}>
+          <div>
+            <p className={styles.eyebrow}>BBC Factoring</p>
+            <h2>Liquidez sin deuda, sin límites y sin complicaciones.</h2>
           </div>
+          <Link href={siteConfig.ctaHref} className={styles.primaryAction}>
+            Solicitar información
+          </Link>
         </div>
 
-        <div className={styles.bottomBar}>
+        <div className={styles.linkRows}>
           <div className={styles.linkGroup}>
-            <p className={styles.groupTitle}>Pages</p>
+            <p className={styles.groupTitle}>Navegación</p>
             <div className={styles.linkRow}>
               {siteConfig.nav.map((item) => (
                 <Link key={item.label} href={item.href}>
@@ -36,9 +29,9 @@ export function Footer() {
           </div>
 
           <div className={styles.linkGroup}>
-            <p className={styles.groupTitle}>Legal</p>
+            <p className={styles.groupTitle}>Contacto</p>
             <div className={styles.linkRow}>
-              {siteConfig.footer.legalLinks.map((item) => (
+              {siteConfig.footer.partnerLinks.map((item) => (
                 <Link key={item.label} href={item.href}>
                   {item.label}
                 </Link>
@@ -46,6 +39,16 @@ export function Footer() {
             </div>
           </div>
 
+        </div>
+
+        <div className={styles.bottomBar}>
+          <div className={styles.linkRow}>
+            {siteConfig.footer.legalLinks.map((item) => (
+              <Link key={item.label} href={item.href}>
+                {item.label}
+              </Link>
+            ))}
+          </div>
           <div className={styles.meta}>
             <p className={styles.copy}>© 2026 BBC Factoring. Todos los derechos reservados.</p>
             <p className={styles.address}>{siteConfig.footer.address}</p>

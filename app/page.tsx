@@ -1,36 +1,32 @@
+import trustedPartnerLogo from "@/app/public/2.png";
 import { HeroSection } from "@/components/sections/HeroSection";
+import { HomeIntroStatsSection } from "@/components/sections/HomeIntroStatsSection";
 import { ImageTextSection } from "@/components/sections/ImageTextSection";
 import { MapSection } from "@/components/sections/MapSection";
-import { PinnedFinanceSection } from "@/components/sections/PinnedFinanceSection";
-import { SectionIntro } from "@/components/sections/SectionIntro";
-import { SplitFeatureSection } from "@/components/sections/SplitFeatureSection";
-import { TeamGrid } from "@/components/sections/TeamGrid";
-import { TestimonialQuote } from "@/components/sections/TestimonialQuote";
-import { homeContent, globalTeamMembers } from "@/content/home";
+import { TestimonialCardsCarouselSection } from "@/components/sections/TestimonialCardsCarouselSection";
+import { WhyChooseAccordionSection } from "@/components/sections/WhyChooseAccordionSection";
+import { homeContent } from "@/content/home";
 
 export default function HomePage() {
   return (
     <>
       <HeroSection {...homeContent.hero} />
-      <SectionIntro
+      <HomeIntroStatsSection
         heading={homeContent.intro.heading}
         body={homeContent.intro.body}
-        variant="split"
-        rightCards={homeContent.stats}
-        compact
+        stats={homeContent.stats}
+        image={trustedPartnerLogo}
+        imageAlt="RTS International | Trusted Partner"
       />
-      <PinnedFinanceSection
-        eyebrow={homeContent.financeSection.eyebrow}
-        heading={homeContent.financeSection.heading}
-        summary={homeContent.financeSection.summary}
-        items={homeContent.financeSection.items}
-      />
-      <SplitFeatureSection
+      <WhyChooseAccordionSection
         heading={homeContent.whyChoose.heading}
         body={homeContent.whyChoose.body}
         ctaLabel={homeContent.whyChoose.ctaLabel}
         ctaHref={homeContent.whyChoose.ctaHref}
-        items={homeContent.featureCards}
+        items={homeContent.financeSection.items.map((item) => ({
+          title: item.title,
+          description: item.description
+        }))}
       />
       <ImageTextSection
         heading={homeContent.dashboard.heading}
@@ -40,13 +36,13 @@ export default function HomePage() {
         imageAlt={homeContent.dashboard.imageAlt}
         ctaLabel={homeContent.dashboard.ctaLabel}
         ctaHref={homeContent.dashboard.ctaHref}
+        reverse
       />
-      <TestimonialQuote
-        heading={homeContent.testimonial.heading}
-        quote={homeContent.testimonial.quote}
-        author={homeContent.testimonial.author}
+      <TestimonialCardsCarouselSection
+        heading={homeContent.testimonialCarousel.heading}
+        body={homeContent.testimonialCarousel.body}
+        items={homeContent.testimonialCarousel.items}
       />
-      <TeamGrid members={globalTeamMembers} />
       <MapSection
         heading={homeContent.contactMap.heading}
         body={homeContent.contactMap.body}

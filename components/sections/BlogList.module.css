@@ -8,7 +8,7 @@
 }
 
 .featured {
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid #d6e3f2;
   padding-bottom: 26px;
   margin-bottom: 10px;
 }
@@ -34,7 +34,7 @@
 
 .item {
   padding: 24px 0;
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 1px solid #d6e3f2;
 }
 
 .item h3 {

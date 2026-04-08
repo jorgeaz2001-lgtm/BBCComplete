@@ -1,7 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import styles from "@/components/sections/TeamGrid.module.css";
+import styles from "@/components/sections/ClientShowcaseSection.module.css";
+
+type TestimonialData = {
+  heading: string;
+  quote: string;
+  author: string;
+};
 
 type TeamMember = {
   name: string;
@@ -9,11 +15,12 @@ type TeamMember = {
   image?: string;
 };
 
-type TeamGridProps = {
+type ClientShowcaseSectionProps = {
+  testimonial: TestimonialData;
   members: TeamMember[];
 };
 
-export function TeamGrid({ members }: TeamGridProps) {
+export function ClientShowcaseSection({ testimonial, members }: ClientShowcaseSectionProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeMember = useMemo(() => members[activeIndex] ?? members[0], [members, activeIndex]);
 
@@ -32,20 +39,26 @@ export function TeamGrid({ members }: TeamGridProps) {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <article className={styles.card}>
+        <div className={styles.testimonial}>
+          <h2>{testimonial.heading}</h2>
+          <blockquote>{testimonial.quote}</blockquote>
+          <p className={styles.author}>- {testimonial.author}</p>
+        </div>
+
+        <article className={styles.carousel}>
           <div className={styles.placeholder} aria-hidden="true" />
           <div className={styles.meta}>
             <h3>{activeMember.name}</h3>
             <p>{activeMember.role}</p>
           </div>
           <div className={styles.controls}>
-            <button type="button" onClick={goPrev} aria-label="Miembro anterior">
+            <button type="button" onClick={goPrev} aria-label="Cliente anterior">
               ‹
             </button>
             <span>
               {activeIndex + 1} / {members.length}
             </span>
-            <button type="button" onClick={goNext} aria-label="Siguiente miembro">
+            <button type="button" onClick={goNext} aria-label="Siguiente cliente">
               ›
             </button>
           </div>

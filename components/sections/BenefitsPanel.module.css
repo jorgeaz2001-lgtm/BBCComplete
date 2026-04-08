@@ -12,8 +12,9 @@
 }
 
 .imageWrap {
-  border-radius: 16px;
+  border-radius: 12px;
   overflow: hidden;
+  border: 1px solid #d7e4f3;
 }
 
 .imageWrap img {
@@ -34,8 +35,8 @@
 
 .copy li {
   margin-bottom: 12px;
-  color: var(--color-muted);
-  line-height: 1.45;
+  color: var(--color-text);
+  line-height: 1.6;
 }
 
 @media (max-width: 940px) {

@@ -28,9 +28,10 @@
 }
 
 .card {
-  border: 1px solid var(--color-border);
-  border-radius: 14px;
-  padding: 22px 18px;
+  border: 1px solid #d8e5f4;
+  border-radius: 12px;
+  padding: 20px 16px;
+  background: #f9fbfe;
 }
 
 .card h3 {

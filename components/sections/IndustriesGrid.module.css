@@ -20,8 +20,8 @@
 }
 
 .card {
-  border: 1px solid var(--color-border);
-  border-radius: 14px;
+  border: 1px solid #d6e3f2;
+  border-radius: 10px;
   background: var(--color-white);
   min-height: 130px;
   padding: 18px;

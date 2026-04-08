@@ -1,0 +1,155 @@
+.section {
+  padding: 34px 0 36px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-navy-900) 94%, #040a18) 0%,
+    color-mix(in srgb, var(--color-navy-800) 96%, #061021) 100%
+  );
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: clamp(12px, 2vw, 28px);
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  margin: 0;
+  color: #f3f7ff;
+  font-size: clamp(30px, 3.1vw, 40px);
+  line-height: 1.14;
+}
+
+.intro p {
+  margin: 10px 0 0;
+  color: color-mix(in srgb, #ffffff 86%, #b9c9eb);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 66ch;
+}
+
+.carousel {
+  border: 1px solid color-mix(in srgb, #ffffff 12%, transparent);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--color-navy-900) 90%, #101f3f);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, #ffffff 8%, transparent);
+  padding: 18px 0;
+}
+
+.viewport {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
+}
+
+.track {
+  --card-gap: 14px;
+  display: flex;
+  gap: var(--card-gap);
+  align-items: stretch;
+  width: max-content;
+  animation: testimonialLoop 36s linear infinite;
+}
+
+.card {
+  flex: 0 0 clamp(280px, 30vw, 390px);
+  min-height: 210px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, #ffffff 12%, transparent);
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--color-navy-800) 86%, #0f1e3e) 0%,
+    color-mix(in srgb, var(--color-navy-900) 92%, #08122a) 100%
+  );
+  padding: 16px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBrand {
+  margin-bottom: 14px;
+  display: inline-flex;
+}
+
+.cardBrand span {
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, #ffffff 18%, transparent);
+  background: color-mix(in srgb, #ffffff 8%, transparent);
+  color: color-mix(in srgb, #ffffff 94%, #bfd0f0);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  padding: 7px 10px;
+}
+
+.card blockquote {
+  margin: 0;
+  color: #f4f7ff;
+  font-size: 21px;
+  line-height: 1.45;
+  font-weight: 500;
+  flex: 1;
+}
+
+.cardAuthor {
+  margin: 16px 0 0;
+  color: #dce9ff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cardRole {
+  margin: 4px 0 0;
+  color: color-mix(in srgb, #ffffff 68%, #8ea8d2);
+  font-size: 13px;
+}
+
+@keyframes testimonialLoop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - (var(--card-gap) / 2)));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+  }
+}
+
+@media (max-width: 1040px) {
+  .card {
+    min-height: 196px;
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 28px 0 30px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .carousel {
+    padding: 12px 0;
+  }
+
+  .card {
+    min-height: 190px;
+    padding: 14px 13px;
+  }
+
+  .card blockquote {
+    font-size: 18px;
+  }
+}

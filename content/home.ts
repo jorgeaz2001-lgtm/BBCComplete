@@ -9,12 +9,15 @@ export const homeContent = {
     ctaHref: WHATSAPP_ADVISOR_URL,
     secondaryCtaLabel: "Contáctanos",
     secondaryCtaHref: "/contact",
-    videoUrl: "https://framerusercontent.com/assets/etgmwEyGLXsT9Rv13qZtx7LlzQ.mp4",
-    videoPoster: "https://www.rtsinternational.com/sites/default/files/2024-10/image%207.png"
+    videoUrl: "https://framerusercontent.com/assets/B1E36n5Z6jDij8UJYkjAIGrRups.mp4",
+    imageUrl: "https://www.rtsinternational.com/sites/default/files/2024-10/image%207.png",
+    imageAlt: "Carga marítima para operaciones internacionales"
   },
   intro: {
-    heading: "Más de 20 años financiando empresas globalmente",
-    body: "Contamos con presencia establecida en más de 40 países y acompañamos a empresas con operaciones nacionales e internacionales para mejorar su liquidez sin afectar su balance."
+    heading: "Más de veinte años financiando empresas globalmente",
+    body: "Contamos con presencia establecida en más de cuarenta países.",
+    image: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
+    imageAlt: "Panel de control financiero y operaciones"
   },
   stats: [
     {
@@ -31,6 +34,11 @@ export const homeContent = {
       icon: "https://www.rtsinternational.com/sites/default/files/2024-10/headset_mic.svg",
       value: "Sin Comisiones por Apertura",
       label: "Transparencia total desde el inicio."
+    },
+    {
+      icon: "https://www.rtsinternational.com/sites/default/files/2025-01/more.svg",
+      value: "40+ países atendidos",
+      label: "Cobertura para operaciones nacionales e internacionales."
     }
   ],
   financeSection: {
@@ -141,6 +149,47 @@ export const homeContent = {
     quote:
       "Con BBC Factoring obtuvimos capital en menos de 24 horas y mejoramos la continuidad operativa sin afectar nuestra estructura financiera.",
     author: "Cliente BBC Factoring"
+  },
+  testimonialCarousel: {
+    heading: "Historias reales de crecimiento con BBC Factoring",
+    body: "Empresas de distintos sectores aceleran su operación con liquidez en menos de 24 horas y acompañamiento continuo.",
+    items: [
+      {
+        company: "Ramp",
+        quote:
+          "“Pasamos de esperar semanas a liberar flujo en el mismo día. Pudimos sostener compras y entregas sin pausar la operación.”",
+        author: "Ian M.",
+        role: "Head of Analytics"
+      },
+      {
+        company: "Product Hunt",
+        quote:
+          "“El proceso fue directo y transparente. En menos de una semana ya teníamos una estructura de factoraje lista para escalar.”",
+        author: "Rajiv A.",
+        role: "CEO"
+      },
+      {
+        company: "Notion",
+        quote:
+          "“Nos ayudó a operar en distintas divisas sin fricción. Eso mejoró la planeación financiera y redujo presión sobre caja.”",
+        author: "Akshay B.",
+        role: "Threat Intel Lead"
+      },
+      {
+        company: "Global Logistics",
+        quote:
+          "“Con cobranza asistida y visibilidad diaria, recuperamos control del ciclo de efectivo y ganamos continuidad operativa.”",
+        author: "Dirección de Finanzas",
+        role: "Operaciones Logísticas"
+      },
+      {
+        company: "Monterrey Manufacturing",
+        quote:
+          "“Nuestra línea creció junto con el volumen de facturación. Ya no frenamos producción por falta de liquidez temporal.”",
+        author: "Gerencia General",
+        role: "Manufactura Industrial"
+      }
+    ]
   },
   contactMap: {
     heading: "Información de contacto",
