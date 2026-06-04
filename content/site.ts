@@ -5,7 +5,7 @@ export type NavItem = {
 
 /** WhatsApp “chat with an advisor” — same link for header CTA, hero, and footer. */
 export const WHATSAPP_ADVISOR_URL =
-  "https://api.whatsapp.com/send/?phone=%2B528183091546&text=Hola%2C+quisiera+solicitar+m%C3%A1s+informaci%C3%B3n+sobre+el+servicio+de+factoraje+para+mi+empresa.&type=phone_number&app_absent=0";
+  "https://api.whatsapp.com/send/?phone=%2B528140086007&text=Hola%2C+quisiera+solicitar+m%C3%A1s+informaci%C3%B3n+sobre+el+servicio+de+factoraje+para+mi+empresa.&type=phone_number&app_absent=0";
 
 export const siteConfig = {
   siteName: "BBC Factoring",
@@ -33,7 +33,7 @@ export const siteConfig = {
     partnerLinks: [
       { label: "Atención a Clientes", href: "mailto:factoring@bbcpartners.mx" },
       { label: "factoring@bbcpartners.mx", href: "mailto:factoring@bbcpartners.mx" },
-      { label: "+52 81 8309 1546", href: "tel:+528183091546" },
+      { label: "+52 81 4008 6007", href: "tel:+528140086007" },
       { label: "Chatea por WhatsApp", href: WHATSAPP_ADVISOR_URL }
     ]
   }

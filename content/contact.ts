@@ -6,10 +6,10 @@ export const contactContent = {
       "Respetamos tu privacidad.",
       "No compartiremos tus datos."
     ],
-    supportCopy: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 8309 1546",
+    supportCopy: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 4008 6007",
     supportLabel: "Chatea con un Asesor",
     supportHref:
-      "https://wa.me/+528183091546/?text=Hola,%20quisiera%20solicitar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20factoraje%20para%20mi%20empresa."
+      "https://wa.me/+528140086007/?text=Hola,%20quisiera%20solicitar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20factoraje%20para%20mi%20empresa."
   },
   form: {
     firstNameLabel: "Nombre*",

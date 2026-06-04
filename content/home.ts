@@ -193,7 +193,7 @@ export const homeContent = {
   },
   contactMap: {
     heading: "Información de contacto",
-    body: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 8309 1546 | Oficinas: Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220.",
+    body: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 4008 6007 | Oficinas: Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220.",
     embedUrl:
       "https://www.google.com/maps?q=R%C3%ADo+V%C3%ADstula+335,+Colonia+del+Valle,+San+Pedro+Garza+Garc%C3%ADa,+N.L.+66220&output=embed"
   }
