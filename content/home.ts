@@ -155,39 +155,39 @@ export const homeContent = {
     body: "Empresas de distintos sectores aceleran su operación con liquidez en menos de 24 horas y acompañamiento continuo.",
     items: [
       {
-        company: "Ramp",
+        company: "Transporte y Logística",
         quote:
-          "“Pasamos de esperar semanas a liberar flujo en el mismo día. Pudimos sostener compras y entregas sin pausar la operación.”",
-        author: "Ian M.",
-        role: "Head of Analytics"
+          "“Trabajar con BBC Factoring nos permitió liberar flujo de efectivo sin tener que recurrir a créditos bancarios. El proceso fue mucho más ágil de lo que esperábamos y hoy podemos crecer con mayor tranquilidad financiera.”",
+        author: "Carlos G.",
+        role: "Director General"
       },
       {
-        company: "Product Hunt",
+        company: "Manufactura Metalmecánica",
         quote:
-          "“El proceso fue directo y transparente. En menos de una semana ya teníamos una estructura de factoraje lista para escalar.”",
-        author: "Rajiv A.",
-        role: "CEO"
+          "“Nuestros clientes manejan plazos de pago largos y eso siempre representaba un reto para el capital de trabajo. Con BBC Factoring logramos convertir nuestras cuentas por cobrar en liquidez inmediata y aprovechar nuevas oportunidades de negocio.”",
+        author: "Miguel A.",
+        role: "Socio"
       },
       {
-        company: "Notion",
+        company: "Industria Automotriz",
         quote:
-          "“Nos ayudó a operar en distintas divisas sin fricción. Eso mejoró la planeación financiera y redujo presión sobre caja.”",
-        author: "Akshay B.",
-        role: "Threat Intel Lead"
+          "“Lo que más valoramos fue el acompañamiento durante todo el proceso. No solo encontramos una solución financiera, sino un equipo que realmente entendió la operación de nuestra empresa y nuestras necesidades.”",
+        author: "Ricardo M.",
+        role: "Director Financiero"
       },
       {
-        company: "Global Logistics",
+        company: "Servicios Industriales",
         quote:
-          "“Con cobranza asistida y visibilidad diaria, recuperamos control del ciclo de efectivo y ganamos continuidad operativa.”",
-        author: "Dirección de Finanzas",
-        role: "Operaciones Logísticas"
+          "“Antes teníamos que rechazar proyectos por falta de flujo para ejecutarlos. Desde que comenzamos a trabajar con BBC Factoring, podemos aceptar contratos más grandes y cumplir con nuestros compromisos sin presión financiera.”",
+        author: "Alejandro R.",
+        role: "Propietario"
       },
       {
-        company: "Monterrey Manufacturing",
+        company: "Exportación y Comercio Internacional",
         quote:
-          "“Nuestra línea creció junto con el volumen de facturación. Ya no frenamos producción por falta de liquidez temporal.”",
-        author: "Gerencia General",
-        role: "Manufactura Industrial"
+          "“La facilidad para financiar facturas en dólares fue clave para nuestra operación. El servicio ha sido profesional, transparente y nos ha ayudado a mantener una posición financiera mucho más sólida.”",
+        author: "Fernando T.",
+        role: "Director Comercial"
       }
     ]
   },
