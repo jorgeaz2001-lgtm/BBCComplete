@@ -36,7 +36,7 @@ export function HomeIntroStatsSection({
           <div className={styles.media}>
             <div className={styles.partnerLockup}>
               <div className={styles.logoWrap}>
-                <Image src={image} alt={imageAlt} width={280} height={110} className={styles.logo} />
+                <Image src={image} alt={imageAlt} width={220} height={88} className={styles.logo} />
               </div>
               <span className={styles.partnerDivider} aria-hidden="true" />
               <span className={styles.partnerText}>
