@@ -105,29 +105,44 @@ export const homeContent = {
   },
   featureCards: [
     {
-      title: "Warehousing (almacenamiento industrial)",
-      body: "Soluciones para operaciones con inventario, almacenamiento y rotación constante.",
+      title: "Transporte y Logística",
+      body: "Transportistas, fleteras, 3PLs, freight forwarders y operadores logísticos.",
       imageUrl: "https://framerusercontent.com/images/HlLNHFp92mBs48AlJPbjnCfJs.jpg"
     },
     {
-      title: "Manufactura industrial",
-      body: "Capital de trabajo para ciclos de producción y cumplimiento de pedidos.",
+      title: "Manufactura y Maquila",
+      body: "Empresas manufactureras, metalmecánicas, automotrices, electrónicas y de transformación.",
       imageUrl: "https://framerusercontent.com/images/xm2kX5TxyDqX3dK52e6gsO890s.jpg"
     },
     {
-      title: "Transporte nacional e internacional",
-      body: "Liquidez para sostener rutas, combustible, operadores y crecimiento operativo.",
+      title: "Exportación e Importación",
+      body: "Empresas que venden a clientes en Estados Unidos, Canadá y otros mercados internacionales.",
       imageUrl: "https://framerusercontent.com/images/LW10f0HNq16YWPNqdCABHPmxeg.jpg"
     },
     {
-      title: "Warehousing",
-      body: "Factoraje diseñado para empresas con alto volumen de facturación recurrente.",
+      title: "Servicios Industriales",
+      body: "Mantenimiento industrial, instalaciones, ingeniería, automatización y servicios especializados.",
       imageUrl: "https://framerusercontent.com/images/BhloAVtfH51EsFRx4LnZwv35zIw.jpg"
     },
     {
-      title: "Operaciones de exportación",
-      body: "Estructuras de fondeo para ventas internacionales y cobros con plazos extendidos.",
+      title: "Servicios profesionales y Tecnología",
+      body: "Staffing, reclutamiento, servicios especializados, limpieza industrial y seguridad privada.",
+      imageUrl: "https://framerusercontent.com/images/HlLNHFp92mBs48AlJPbjnCfJs.jpg"
+    },
+    {
+      title: "Empaque, Plásticos y Materiales",
+      body: "Fabricantes de empaques, plásticos, cartón, etiquetas y productos para cadenas de suministro.",
+      imageUrl: "https://framerusercontent.com/images/xm2kX5TxyDqX3dK52e6gsO890s.jpg"
+    },
+    {
+      title: "Alimentos y Bebidas",
+      body: "Productores, procesadores, distribuidores y proveedores de cadenas comerciales.",
       imageUrl: "https://framerusercontent.com/images/LW10f0HNq16YWPNqdCABHPmxeg.jpg"
+    },
+    {
+      title: "Comercio Mayorista y Distribución",
+      body: "Distribuidores de productos industriales, refacciones, materias primas, químicos y bienes de consumo.",
+      imageUrl: "https://framerusercontent.com/images/BhloAVtfH51EsFRx4LnZwv35zIw.jpg"
     }
   ],
   dashboard: {

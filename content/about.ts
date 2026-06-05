@@ -16,14 +16,14 @@ export const aboutContent = {
   },
   industriesHeading: "Sectores que atendemos",
   industries: [
-    { label: "Warehousing", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/packaging.svg" },
-    { label: "Manufactura industrial", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/manufacturing.svg" },
-    { label: "Transporte nacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/transportation.svg" },
-    { label: "Transporte internacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/more.svg" },
-    { label: "Warehousing", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/fuel.svg" },
-    { label: "Exportadores", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/textiles.svg" },
-    { label: "Comercializadoras", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/plastics.svg" },
-    { label: "Operaciones multimoneda", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/metals.svg" }
+    { label: "Transporte y Logística", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/transportation.svg" },
+    { label: "Manufactura y Maquila", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/manufacturing.svg" },
+    { label: "Exportación e Importación", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/more.svg" },
+    { label: "Servicios Industriales", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/fuel.svg" },
+    { label: "Servicios profesionales y Tecnología", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/packaging.svg" },
+    { label: "Empaque, Plásticos y Materiales", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/plastics.svg" },
+    { label: "Alimentos y Bebidas", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/textiles.svg" },
+    { label: "Comercio Mayorista y Distribución", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/metals.svg" }
   ],
   geography: {
     heading: "Dónde operamos",
