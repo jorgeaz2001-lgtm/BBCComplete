@@ -141,8 +141,12 @@
     justify-content: center;
   }
 
+  .logo {
+    max-height: 34px;
+  }
+
   .partnerText {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .media {
