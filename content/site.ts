@@ -17,7 +17,6 @@ export const siteConfig = {
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/services" },
     { label: "Nosotros", href: "/about" },
-    { label: "Insights", href: "/insights" },
     { label: "Contacto", href: "/contact" }
   ] satisfies NavItem[],
   account: {

@@ -98,7 +98,7 @@ export const homeContent = {
     ]
   },
   whyChoose: {
-    heading: "¿A quién está dirigido este servicio?",
+    heading: "Empresas con necesidades de capital de trabajo.",
     body: "Empresas que facturan más de $6 millones de pesos mensuales, con operaciones de exportación o alta rotación de facturación.",
     ctaLabel: "Conocer más",
     ctaHref: "/services"
@@ -120,7 +120,7 @@ export const homeContent = {
       imageUrl: "https://framerusercontent.com/images/LW10f0HNq16YWPNqdCABHPmxeg.jpg"
     },
     {
-      title: "Logística y distribución",
+      title: "Warehousing",
       body: "Factoraje diseñado para empresas con alto volumen de facturación recurrente.",
       imageUrl: "https://framerusercontent.com/images/BhloAVtfH51EsFRx4LnZwv35zIw.jpg"
     },

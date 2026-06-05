@@ -20,7 +20,7 @@ export const aboutContent = {
     { label: "Manufactura industrial", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/manufacturing.svg" },
     { label: "Transporte nacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/transportation.svg" },
     { label: "Transporte internacional", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/more.svg" },
-    { label: "Logística y distribución", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/fuel.svg" },
+    { label: "Warehousing", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/fuel.svg" },
     { label: "Exportadores", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/textiles.svg" },
     { label: "Comercializadoras", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/plastics.svg" },
     { label: "Operaciones multimoneda", icon: "https://www.rtsinternational.com/sites/default/files/2025-01/metals.svg" }
