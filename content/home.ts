@@ -99,7 +99,7 @@ export const homeContent = {
   },
   whyChoose: {
     heading: "¿A quién está dirigido este servicio?",
-    body: "Empresas que facturan.",
+    body: "Empresas con necesidades de capital de trabajo.",
     ctaLabel: "Conocer más",
     ctaHref: "/services"
   },
@@ -208,9 +208,9 @@ export const homeContent = {
   },
   contactMap: {
     heading: "Información de contacto",
-    body: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 4008 6007 | Oficinas: Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220.",
+    body: "Atención a Clientes: factoring@bbcpartners.mx | +52 81 4008 6007 | Oficinas: Av. Manuel Gómez Morín 900, Carrizalejo, 66254 San Pedro Garza García, N.L.",
     embedUrl:
-      "https://www.google.com/maps?q=R%C3%ADo+V%C3%ADstula+335,+Colonia+del+Valle,+San+Pedro+Garza+Garc%C3%ADa,+N.L.+66220&output=embed"
+      "https://www.google.com/maps?q=Av.+Manuel+G%C3%B3mez+Mor%C3%ADn+900,+Carrizalejo,+66254+San+Pedro+Garza+Garc%C3%ADa,+N.L.&output=embed"
   }
 };
 

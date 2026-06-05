@@ -24,7 +24,7 @@ export const siteConfig = {
     href: WHATSAPP_ADVISOR_URL
   },
   footer: {
-    address: "Río Vístula 335, Colonia del Valle, San Pedro Garza García, N.L. 66220",
+    address: "Av. Manuel Gómez Morín 900, Carrizalejo, 66254 San Pedro Garza García, N.L.",
     legalLinks: [
       { label: "Aviso de Privacidad", href: "#" },
       { label: "Términos y Condiciones", href: "#" }
