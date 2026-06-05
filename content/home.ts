@@ -2,7 +2,7 @@ import { WHATSAPP_ADVISOR_URL } from "@/content/site";
 
 export const homeContent = {
   hero: {
-    title: "Soluciones de Factoraje para Empresas en Monterrey",
+    title: "SOLUCIONES DE FACTORAJE PARA EMPRESAS EN LATINOAMÉRICA",
     subtitle:
       "Factoraje nacional e internacional con depósitos en menos de 24 horas, sin deuda, sin límites y en cualquier divisa para empresas que operan dentro o fuera de México.",
     ctaLabel: "Chatea con un Asesor",
