@@ -1,4 +1,4 @@
-import trustedPartnerLogo from "@/app/public/2.png";
+import trustedPartnerLogo from "@/app/public/trusted-partner.png";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { HomeIntroStatsSection } from "@/components/sections/HomeIntroStatsSection";
 import { ImageTextSection } from "@/components/sections/ImageTextSection";
@@ -16,7 +16,7 @@ export default function HomePage() {
         body={homeContent.intro.body}
         stats={homeContent.stats}
         image={trustedPartnerLogo}
-        imageAlt="RTS International | Trusted Partner"
+        imageAlt="BBC Factoring | Trusted Partner"
       />
       <WhyChooseAccordionSection
         heading={homeContent.whyChoose.heading}

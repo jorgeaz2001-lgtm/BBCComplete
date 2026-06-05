@@ -16,7 +16,7 @@ export const homeContent = {
   intro: {
     heading: "Más de veinte años financiando empresas globalmente",
     body: "",
-    image: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
+    image: "/trusted-partner.png",
     imageAlt: "Panel de control financiero y operaciones"
   },
   stats: [
