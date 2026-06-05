@@ -24,10 +24,10 @@ export const contactContent = {
     companyPlaceholder: "Nombre de tu empresa",
     annualSalesLabel: "Ventas Anuales*",
     annualSalesOptions: [
-      "Menos de $6M MXN",
-      "$6M - $20M MXN",
-      "$20M - $50M MXN",
-      "$50M+ MXN"
+      "$0 - $50 millones MXN",
+      "$50 - $100 millones MXN",
+      "$100 - $200 millones MXN",
+      "$200 millones+ MXN"
     ],
     sourceLabel: "¿Cómo nos conociste?*",
     sourceOptions: ["Google", "LinkedIn", "Recomendación", "Evento", "Otro"],
