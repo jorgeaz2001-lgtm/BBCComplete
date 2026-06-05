@@ -99,7 +99,7 @@ export const homeContent = {
   },
   whyChoose: {
     heading: "¿A quién está dirigido este servicio?",
-    body: "Empresas con necesidades de capital de trabajo.",
+    body: "Empresas que facturan.",
     ctaLabel: "Conocer más",
     ctaHref: "/services"
   },
