@@ -114,6 +114,12 @@
 @media (max-width: 940px) {
   .navBar .container {
     grid-template-columns: 1fr auto;
+    min-height: 64px;
+    gap: 14px;
+  }
+
+  .logo {
+    font-size: 24px;
   }
 
   .menuToggle {

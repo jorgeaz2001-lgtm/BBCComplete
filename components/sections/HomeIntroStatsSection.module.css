@@ -89,7 +89,7 @@
 .logo {
   width: 100%;
   height: auto;
-  max-height: 64px;
+  max-height: 48px;
   object-fit: contain;
   display: block;
 }
@@ -126,15 +126,26 @@
 }
 
 @media (max-width: 620px) {
+  .introRow {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .stats {
     grid-template-columns: 1fr;
   }
 
   .partnerLockup {
-    gap: 12px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
   }
 
   .partnerText {
-    font-size: 22px;
+    font-size: 18px;
+  }
+
+  .media {
+    padding: 16px 18px;
   }
 }

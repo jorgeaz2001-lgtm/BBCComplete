@@ -52,7 +52,7 @@
   gap: var(--card-gap);
   align-items: stretch;
   width: max-content;
-  animation: testimonialLoop 36s linear infinite;
+  animation: testimonialLoop 50s linear infinite;
 }
 
 .card {
@@ -142,14 +142,30 @@
 
   .carousel {
     padding: 12px 0;
+    border-radius: 14px;
+  }
+
+  .viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .track {
+    animation: none;
+    padding-inline: 4px;
   }
 
   .card {
-    min-height: 190px;
+    flex: 0 0 85vw;
+    min-height: auto;
     padding: 14px 13px;
+    scroll-snap-align: start;
   }
 
   .card blockquote {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
