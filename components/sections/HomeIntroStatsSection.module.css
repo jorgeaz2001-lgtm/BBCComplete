@@ -89,7 +89,7 @@
 .logo {
   width: 100%;
   height: auto;
-  max-height: 48px;
+  max-height: 110px;
   object-fit: contain;
   display: block;
 }
@@ -139,10 +139,6 @@
     gap: 10px;
     width: 100%;
     justify-content: center;
-  }
-
-  .logo {
-    max-height: 34px;
   }
 
   .partnerText {
