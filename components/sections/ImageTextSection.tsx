@@ -27,7 +27,7 @@ export function ImageTextSection({
     <section className={styles.section}>
       <div className={`${styles.container} ${reverse ? styles.reverse : ""}`}>
         <div className={styles.media}>
-          <Image src={image} alt={imageAlt} width={560} height={380} />
+          <Image src={image} alt={imageAlt} fill sizes="(max-width: 940px) 100vw, 50vw" className={styles.mediaImg} />
         </div>
         <div className={styles.copy}>
           <h2>{heading}</h2>

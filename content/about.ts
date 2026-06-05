@@ -11,7 +11,7 @@ export const aboutContent = {
   intro: {
     heading: "Quiénes somos",
     body: "Somos una firma especializada en factoraje para empresas en crecimiento. Acompañamos a clientes en México y mercados internacionales con una atención cercana, procesos ágiles y enfoque operativo.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+    image: "/about-team.jpg",
     imageAlt: "Equipo BBC Factoring"
   },
   industriesHeading: "Sectores que atendemos",
