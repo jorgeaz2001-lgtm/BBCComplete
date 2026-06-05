@@ -15,7 +15,7 @@ export const homeContent = {
   },
   intro: {
     heading: "Más de veinte años financiando empresas globalmente",
-    body: "Contamos con presencia establecida en más de cuarenta países.",
+    body: "",
     image: "https://www.rtsinternational.com/sites/default/files/2025-01/laptop-screen.png",
     imageAlt: "Panel de control financiero y operaciones"
   },

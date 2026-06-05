@@ -31,7 +31,7 @@ export function HomeIntroStatsSection({
         <div className={styles.introRow}>
           <div className={styles.copy}>
             <h2>{heading}</h2>
-            <p>{body}</p>
+            {body ? <p>{body}</p> : null}
           </div>
           <div className={styles.media}>
             <div className={styles.partnerLockup}>
