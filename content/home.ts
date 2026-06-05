@@ -98,8 +98,8 @@ export const homeContent = {
     ]
   },
   whyChoose: {
-    heading: "Empresas con necesidades de capital de trabajo.",
-    body: "Empresas que facturan más de $6 millones de pesos mensuales, con operaciones de exportación o alta rotación de facturación.",
+    heading: "¿A quién está dirigido este servicio?",
+    body: "Empresas con necesidades de capital de trabajo.",
     ctaLabel: "Conocer más",
     ctaHref: "/services"
   },
